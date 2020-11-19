@@ -1,0 +1,22 @@
+.navbar{
+    text-align: center;
+    box-shadow: 3px 3px 3px #cdcdcd;
+    font-size: 2rem;
+}
+.content h3::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid red;
+    width: 800px;
+}
+.content h3{
+    font-size: 1.5rem;
+}
+.content p{
+    line-height: 20px;
+    box-shadow: 5px 5px 5px #cdcdcd;
+    padding-bottom: 20px;
+}
+body{
+    margin-bottom: 50px;
+}
